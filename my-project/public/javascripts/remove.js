@@ -32,7 +32,7 @@ $(() => {
             return new Promise((resolve, reject) => {
                 $.ajax({
                     type: 'POST',
-                    url: 'http://localhost:3000/users/deletes',
+                    url: 'http://101.200.32.128:3000/users/deletes',
                     data: {
                         inputName,
                         inputTel,
@@ -53,7 +53,7 @@ $(() => {
                     headers: {
                         token: localStorage.getItem("token")
                     },
-                    url: "http://localhost:3000/users/autoLogin",
+                    url: "http://101.200.32.128:3000/users/autoLogin",
                     success(data) {
                         resolve(data)
                     }

@@ -10,7 +10,7 @@ $(function(){
         // console.log(myForm)              
         
         $.ajax({
-            url: 'http://localhost:3000/users/upload',
+            url: 'http://101.200.32.128:3000/users/upload',
             type: 'POST',
             data: myForm,
             contentType: false,

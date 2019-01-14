@@ -3,7 +3,7 @@ $(() => {
         return new Promise((resolve, reject) => {
                 $.ajax({
                     type: 'POST',
-                    url: 'http://localhost:3000/users/updates',
+                    url: 'http://101.200.32.128:3000/users/updates',
                     data: {
                         inputID,
                         inputName,
